@@ -1,0 +1,36 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+
+body {
+    background-image: url(../Assets/background1.jpg);
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.centar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+
+#loader {
+    display: none;
+    height: 125px;
+}
+
+#error {
+    text-align: center;
+}
+
+.container {
+    font-size: 25px;
+    font-style: unset;
+    color: rgb(0, 0, 0);
+}
